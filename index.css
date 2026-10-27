@@ -1,0 +1,75 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+/* header */
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    padding: 8px;
+    border-bottom: 1px #C6C6C6 solid;
+}
+
+#logo-img{
+    height: 33px;
+}
+
+
+.user-imgs{
+    height: 34px;
+    border-radius: 360px;
+}
+
+/* utility classes */
+
+.container-acct{
+    display: flex;
+    padding: 30px 0 7px 10px;
+}
+
+.name-loca{
+    font-size: 13px;
+    margin: 0;
+    margin-left: 10px;
+    line-height: 17px;
+}
+
+.bold-text{
+    font-weight: bold;
+}
+
+.post-img{
+    width: 100%;
+}
+
+.container-3{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.btn{
+    background-color: #FFF;
+    border: none;
+}
+
+.btn img{
+    width: 23px;
+}
+
+.btn:hover{
+    opacity: 50%;
+}
+
+.seperator{
+    color: #C6C6C6;
+}
+
+/* typography */
+
+.container-3 p{
+    margin: 10px 0;
+}
+
